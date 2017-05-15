@@ -1,0 +1,42 @@
+May 14 23:04:58.498 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+May 14 23:04:58.498 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55956.
+May 14 23:04:58.528 HYPERVISOR: exec_cmd: hypervisor version 
+May 14 23:04:58.531 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/apekshalanjile/GNS3/projects/bgp_implementation/project-files/dynamips 
+May 14 23:04:58.531 GENERAL: working_dir=/Users/apekshalanjile/GNS3/projects/bgp_implementation/project-files/dynamips
+May 14 23:04:58.535 HYPERVISOR: exec_cmd: vm create R6 6 c3745 
+May 14 23:04:58.535 VM: VM R6 created.
+May 14 23:04:58.539 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+May 14 23:04:58.543 HYPERVISOR: exec_cmd: c3745 get_mac_addr R6 
+May 14 23:04:58.548 HYPERVISOR: exec_cmd: vm set_ios R6 /Users/apekshalanjile/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+May 14 23:04:58.552 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:04:58.555 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60a806d4 
+May 14 23:04:58.559 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+May 14 23:04:58.563 HYPERVISOR: exec_cmd: c3745 set_mac_addr R6 c406.d4cf.0000 
+May 14 23:04:58.567 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 48 WIC-1T 
+May 14 23:04:58.571 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:04:58.575 HYPERVISOR: exec_cmd: vm slot_add_binding R6 4 0 NM-1FE-TX 
+May 14 23:04:58.579 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 16 WIC-1T 
+May 14 23:04:58.582 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:04:58.586 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-16ESW 
+May 14 23:04:58.590 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:04:58.594 HYPERVISOR: exec_cmd: vm slot_add_binding R6 3 0 NM-4T 
+May 14 23:04:58.610 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:04:58.647 HYPERVISOR: exec_cmd: vm slot_add_binding R6 2 0 NM-1FE-TX 
+May 14 23:04:58.672 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 32 WIC-2T 
+May 14 23:04:58.679 HYPERVISOR: exec_cmd: vm set_ram R6 192 
+May 14 23:04:58.683 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+May 14 23:04:58.694 HYPERVISOR: exec_cmd: vm set_config R6 configs/i6_startup-config.cfg 
+May 14 23:04:58.976 HYPERVISOR: exec_cmd: nio create_udp udp-c2c8f66f-52d7-4797-ab9e-ed508566aef4 10006 127.0.0.1 10007 
+May 14 23:04:58.981 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 16 udp-c2c8f66f-52d7-4797-ab9e-ed508566aef4 
+May 14 23:04:58.996 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:04:59.142 HYPERVISOR: exec_cmd: nio create_udp udp-e5914721-62e8-46b2-861f-329c42f59607 10011 127.0.0.1 10010 
+May 14 23:04:59.154 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 32 udp-e5914721-62e8-46b2-861f-329c42f59607 
+May 14 23:04:59.158 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:05:26.948 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 14 23:07:59.413 HYPERVISOR: exec_cmd: vm get_status R6 
+May 14 23:07:59.419 HYPERVISOR: exec_cmd: vm extract_config R6 
+May 14 23:07:59.426 HYPERVISOR: exec_cmd: vm delete R6 
+May 14 23:07:59.426 VM: VM R6 destroyed.
+May 14 23:07:59.436 HYPERVISOR: exec_cmd: hypervisor stop 
+May 14 23:07:59.477 HYPERVISOR: Stopped.
+May 14 23:07:59.478 GENERAL: reset done.

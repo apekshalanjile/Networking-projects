@@ -1,0 +1,51 @@
+May 14 23:04:58.456 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+May 14 23:04:58.457 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55953.
+May 14 23:04:58.500 HYPERVISOR: exec_cmd: hypervisor version 
+May 14 23:04:58.502 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/apekshalanjile/GNS3/projects/bgp_implementation/project-files/dynamips 
+May 14 23:04:58.502 GENERAL: working_dir=/Users/apekshalanjile/GNS3/projects/bgp_implementation/project-files/dynamips
+May 14 23:04:58.508 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+May 14 23:04:58.508 VM: VM R2 created.
+May 14 23:04:58.515 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+May 14 23:04:58.519 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+May 14 23:04:58.523 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/apekshalanjile/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+May 14 23:04:58.529 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:58.532 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60a806d4 
+May 14 23:04:58.536 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+May 14 23:04:58.540 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.d4b7.0000 
+May 14 23:04:58.544 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 48 WIC-1T 
+May 14 23:04:58.549 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:58.552 HYPERVISOR: exec_cmd: vm slot_add_binding R2 4 0 NM-1FE-TX 
+May 14 23:04:58.556 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+May 14 23:04:58.560 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:58.563 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-16ESW 
+May 14 23:04:58.568 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:58.572 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 NM-4T 
+May 14 23:04:58.576 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:58.579 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+May 14 23:04:58.583 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 32 WIC-2T 
+May 14 23:04:58.587 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+May 14 23:04:58.590 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+May 14 23:04:58.594 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+May 14 23:04:58.912 HYPERVISOR: exec_cmd: nio create_udp udp-be1a05b2-9a90-4b0b-9055-91a90b58f8fa 10002 127.0.0.1 10003 
+May 14 23:04:58.916 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 48 udp-be1a05b2-9a90-4b0b-9055-91a90b58f8fa 
+May 14 23:04:58.928 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:59.030 HYPERVISOR: exec_cmd: nio create_udp udp-0ebc74e8-d72d-48a0-8e98-97d3b0864d53 10009 127.0.0.1 10008 
+May 14 23:04:59.038 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 16 udp-0ebc74e8-d72d-48a0-8e98-97d3b0864d53 
+May 14 23:04:59.045 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:59.146 HYPERVISOR: exec_cmd: nio create_udp udp-a988983f-b010-462b-82b6-9e7b7ccf7ff0 10012 127.0.0.1 10013 
+May 14 23:04:59.155 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 32 udp-a988983f-b010-462b-82b6-9e7b7ccf7ff0 
+May 14 23:04:59.158 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:59.295 HYPERVISOR: exec_cmd: nio create_udp udp-5dd5ef25-fc39-48c1-aec6-d296b720b753 10022 127.0.0.1 10023 
+May 14 23:04:59.311 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 3 0 udp-5dd5ef25-fc39-48c1-aec6-d296b720b753 
+May 14 23:04:59.318 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:04:59.349 HYPERVISOR: exec_cmd: nio create_udp udp-5013d488-0c0b-4499-b711-310cb265d933 10026 127.0.0.1 10027 
+May 14 23:04:59.371 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 33 udp-5013d488-0c0b-4499-b711-310cb265d933 
+May 14 23:04:59.376 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:07:31.419 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 14 23:07:59.409 HYPERVISOR: exec_cmd: vm get_status R2 
+May 14 23:07:59.416 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 14 23:07:59.422 HYPERVISOR: exec_cmd: vm delete R2 
+May 14 23:07:59.422 VM: VM R2 destroyed.
+May 14 23:07:59.432 HYPERVISOR: exec_cmd: hypervisor stop 
+May 14 23:07:59.476 HYPERVISOR: Stopped.
+May 14 23:07:59.478 GENERAL: reset done.
