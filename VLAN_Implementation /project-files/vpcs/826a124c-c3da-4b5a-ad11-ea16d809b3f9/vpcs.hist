@@ -1,0 +1,5 @@
+sh ip
+ip 10.10.10.4/29 10.10.10.6
+save
+exit
+quit

@@ -1,0 +1,52 @@
+May 24 01:09:22.980 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+May 24 01:09:22.981 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54797.
+May 24 01:09:23.036 HYPERVISOR: exec_cmd: hypervisor version 
+May 24 01:09:23.045 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/apekshalanjile/GNS3/projects/Layer2_Implementation /project-files/dynamips 
+May 24 01:09:23.045 GENERAL: working_dir=/Users/apekshalanjile/GNS3/projects/Layer2_Implementation /project-files/dynamips
+May 24 01:09:23.053 HYPERVISOR: exec_cmd: vm create R5 5 c3745 
+May 24 01:09:23.053 VM: VM R5 created.
+May 24 01:09:23.058 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5024 
+May 24 01:09:23.062 HYPERVISOR: exec_cmd: c3745 get_mac_addr R5 
+May 24 01:09:23.065 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 32 WIC-2T 
+May 24 01:09:23.068 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 16 WIC-1T 
+May 24 01:09:23.069 HYPERVISOR: exec_cmd: c3745 set_mac_addr R5 c405.04c7.0000 
+May 24 01:09:23.071 HYPERVISOR: exec_cmd: vm set_ios R5 /Users/apekshalanjile/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+May 24 01:09:23.075 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.080 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 NM-1FE-TX 
+May 24 01:09:23.085 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+May 24 01:09:23.089 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.093 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 NM-4T 
+May 24 01:09:23.097 HYPERVISOR: exec_cmd: vm set_disk0 R5 4 
+May 24 01:09:23.101 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.105 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60a806d4 
+May 24 01:09:23.109 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 48 WIC-1T 
+May 24 01:09:23.112 HYPERVISOR: exec_cmd: vm set_disk1 R5 4 
+May 24 01:09:23.118 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.122 HYPERVISOR: exec_cmd: vm slot_add_binding R5 4 0 NM-1FE-TX 
+May 24 01:09:23.125 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.129 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 NM-16ESW 
+May 24 01:09:23.133 HYPERVISOR: exec_cmd: vm set_ram R5 192 
+May 24 01:09:23.137 HYPERVISOR: exec_cmd: vm set_config R5 configs/i5_startup-config.cfg 
+May 24 01:09:23.478 HYPERVISOR: exec_cmd: nio create_udp udp-3b9c9a44-19b2-4c33-ad25-f36cb57b4874 10001 127.0.0.1 10000 
+May 24 01:09:23.495 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 1 udp-3b9c9a44-19b2-4c33-ad25-f36cb57b4874 
+May 24 01:09:23.506 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.520 HYPERVISOR: exec_cmd: nio create_udp udp-77a9a61d-52ca-4c05-813d-2328b67e2a86 10002 127.0.0.1 10003 
+May 24 01:09:23.545 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 2 udp-77a9a61d-52ca-4c05-813d-2328b67e2a86 
+May 24 01:09:23.561 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.575 HYPERVISOR: exec_cmd: nio create_udp udp-7322eb49-a649-4ac2-a8e8-474e499293ce 10005 127.0.0.1 10004 
+May 24 01:09:23.597 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 3 udp-7322eb49-a649-4ac2-a8e8-474e499293ce 
+May 24 01:09:23.607 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.714 HYPERVISOR: exec_cmd: nio create_udp udp-07cb904c-8533-49d3-88d3-4c32e4f7f615 10014 127.0.0.1 10015 
+May 24 01:09:23.721 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 5 udp-07cb904c-8533-49d3-88d3-4c32e4f7f615 
+May 24 01:09:23.726 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:09:23.853 HYPERVISOR: exec_cmd: nio create_udp udp-986b4c08-6463-409f-91d0-ac6233b81fe6 10025 127.0.0.1 10024 
+May 24 01:09:23.854 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 4 udp-986b4c08-6463-409f-91d0-ac6233b81fe6 
+May 24 01:09:23.856 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:25:57.526 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 24 01:26:01.945 HYPERVISOR: exec_cmd: vm get_status R5 
+May 24 01:26:01.955 HYPERVISOR: exec_cmd: vm extract_config R5 
+May 24 01:26:01.960 HYPERVISOR: exec_cmd: vm delete R5 
+May 24 01:26:01.960 VM: VM R5 destroyed.
+May 24 01:26:01.966 HYPERVISOR: exec_cmd: hypervisor stop 
+May 24 01:26:02.140 HYPERVISOR: Stopped.
+May 24 01:26:02.140 GENERAL: reset done.
